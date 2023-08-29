@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation Dropdowns</title>
+
+    <!-- Compressed CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/css/foundation.min.css"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      .small-text {
+        font-size: 12px;
+      }
+    </style>
+
+    <!-- Compressed JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/vendor/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.1/dist/js/foundation.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Fontawesome Icons -->
+    <script
+      src="https://kit.fontawesome.com/406f972bb9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="grid-y medium-grid-frame">
+      <!-- Header -->
+      <div class="cell shrink header medium-cell-block-container">
+        <!-- Nav Menu -->
+
+        <!-- first Nav Menu -->
+        <div
+          class="title-bar"
+          data-responsive-toggle="responsive-menu"
+          data-hide-for="medium"
+          style="color: white"
+        >
+          <div class="title-bar-title">Menu</div>
+          <button
+            class="menu-icon"
+            type="button"
+            data-toggle="responsive-menu"
+          ></button>
+        </div>
+
+        <div
+          class="title-bar"
+          data-options="marginTop:0;"
+          style="width: 100%"
+          id="responsive-menu"
+        >
+          <!-- Left panel -->
+          <div class="title-bar-left">
+            <div class="flex-container align-middle">
+              <ul class="dropdown menu" data-dropdown-menu>
+                <li>
+                  <!-- item -->
+                  <a href="#">Courses</a>
+                  <ul class="menu">
+                    <li>
+                      <a href="#">DSA to Development</a>
+                    </li>
+                    <li>
+                      <a href="#">For Working Professionals</a>
+                    </li>
+                    <li>
+                      <a href="#">For Students</a>
+                    </li>
+                    <li>
+                      <a href="#">For School Students</a>
+                    </li>
+                  </ul>
+                  <!-- item -->
+                </li>
+                <li>
+                  <a href="#">Tutorials</a>
+                  <ul class="menu">
+                    <li>
+                      <a href="#">Programming Languages</a>
+                    </li>
+                    <li>
+                      <a href="#">Java</a>
+                    </li>
+                    <li>
+                      <a href="#">CS Subjects</a>
+                    </li>
+                    <li>
+                      <a href="#">DevOps</a>
+                    </li>
+                    <li>
+                      <a href="#">SQL Tutorial</a>
+                    </li>
+                    <li>
+                      <a href="#">Interview Questions</a>
+                    </li>
+                    <li>
+                      <a href="#">Interview Corner</a>
+                    </li>
+                    <li>
+                      <a href="#">Projects</a>
+                    </li>
+                    <li>
+                      <a href="#">Cheat Sheets</a>
+                    </li>
+                    <li>
+                      <a href="#">Quizzes</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- item -->
+                <li>
+                  <a href="#">ML & Data Science</a>
+                  <ul class="menu">
+                    <li>
+                      <a href="#">Python Tutorial</a>
+                    </li>
+                    <li>
+                      <a href="#">R Tutorial</a>
+                    </li>
+                    <li>
+                      <a href="#">Machine Learning</a>
+                    </li>
+                    <li>
+                      <a href="#">Data Science using Python</a>
+                    </li>
+                    <li>
+                      <a href="#">Data Science using R</a>
+                    </li>
+                    <li>
+                      <a href="#">Data Science Packages</a>
+                    </li>
+                    <li>
+                      <a href="#">Data Visualisation</a>
+                    </li>
+                    <li>
+                      <a href="#">Data Analysis</a>
+                    </li>
+                    <li>
+                      <a href="#">Deep Learning</a>
+                    </li>
+                    <li>
+                      <a href="#">NLP Tutorial</a>
+                    </li>
+                    <li>
+                      <a href="#">OpenCV Tutorial</a>
+                    </li>
+                    <li>
+                      <a href="#">Interview Questions</a>
+                    </li>
+                    <li>
+                      <a href="#">ML Frameworks</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- item -->
+                <li>
+                  <a href="#">Web Development</a>
+                  <ul class="menu">
+                    <li>
+                      <a href="#">HTML</a>
+                    </li>
+                    <li>
+                      <a href="#">CSS</a>
+                    </li>
+                    <li>
+                      <a href="#">JavaScript</a>
+                    </li>
+                    <li>
+                      <a href="#">PHP</a>
+                    </li>
+                    <li>
+                      <a href="#">Bootstrap Tutorial</a>
+                    </li>
+                    <li>
+                      <a href="#">CSS Frameworks</a>
+                    </li>
+                    <li>
+                      <a href="#">JavaScript Frameworks</a>
+                    </li>
+                    <li>
+                      <a href="#">JavaScript Libraries</a>
+                    </li>
+                    <li>
+                      <a href="#">Django Tutorial</a>
+                    </li>
+                    <li>
+                      <a href="#">WordPress</a>
+                    </li>
+                    <li>
+                      <a href="#">JSON</a>
+                    </li>
+                    <li>
+                      <a href="#">Web Dev Cheat Sheets</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- item -->
+                <li>
+                  <a href="#">Pratice</a>
+                  <ul class="menu">
+                    <li>
+                      <a href="#">All DSA Problems</a>
+                    </li>
+                    <li>
+                      <a href="#">Problem of the Day</a>
+                    </li>
+                    <li>
+                      <a href="#">GFG SDE Sheet</a>
+                    </li>
+                    <li>
+                      <a href="#">Curated DSA Lists</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Right panel -->
+          <div class="title-bar-right">
+            <ul class="dropdown menu align-right" data-dropdown-menu>
+              <li>
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-regular fa-sun"></i></a>
+                <ul class="menu" data-submenu>
+                  <li><a href="#">Light</a></li>
+                  <li><a href="#">Dark</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Language</a>
+              </li>
+              <li><a href="#" data-toggle="bottom-right">Profile</a></li>
+              <div
+                class="dropdown-pane"
+                data-position="bottom"
+                data-alignment="right"
+                id="bottom-right"
+                style="width: 200px"
+                data-dropdown
+              >
+                <ul class="menu vertical icons icon-right">
+                  <li>
+                    <a href="#">
+                      <span>My Profile</span>
+                      <i class="fa-solid fa-user-tie"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span>My Courses</span>
+                      <i class="fa-solid fa-book"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span>Go Premium</span>
+                      <i class="fa-solid fa-p"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span>Transaction History</span>
+                      <i class="fa-solid fa-clock-rotate-left"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span>Saved Videos</span>
+                      <i class="fa-solid fa-clapperboard"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span>Edit Profile</span>
+                      <i class="fa-solid fa-pen"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span>Logout</span>
+                      <i class="fa-solid fa-right-from-bracket"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Second topbar(Sticky) -->
+        <div data-sticky-container>
+          <div
+            class="title-bar align-middle padding-10"
+            data-sticky
+            data-options="marginTop:0;"
+            style="width: 100%"
+          >
+            <!-- Second Nav bar -->
+
+            <ul class="menu small-text" style="color: white">
+              <li><a href="#"> Trending Now</a></li>
+              <li><a href="#">Data Structures</a></li>
+              <li><a href="#">Algorithms</a></li>
+              <li><a href="#">Topic-wise Practice</a></li>
+              <li><a href="#">Python</a></li>
+              <li><a href="#">Machine Learning</a></li>
+              <li><a href="#">Data Science</a></li>
+              <li><a href="#">JavaScript</a></li>
+              <li><a href="#">Java</a></li>
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">Bootstrap</a></li>
+              <li><a href="#">C</a></li>
+              <li><a href="#">C++</a></li>
+              <li><a href="#">ReactJS</a></li>
+              <li><a href="#">Competitive Programming</a></li>
+              <li><a href="#">Aptitude</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Main Content -->
+      <div class="cell medium-auto medium-cell-block-container">
+        <div class="grid-x">
+          <!-- sidebar -->
+          <div class="cell medium-2 medium-cell-block-y">
+            <ul
+              class="vertical menu accordion-menu small-text"
+              data-accordion-menu
+            >
+              <li class="menu-text">
+                <a href="#">Write an Interview Experience</a>
+              </li>
+              <li class="menu-text">
+                <a href="#">Share Your Campus Experience</a>
+              </li>
+              <li class="menu-text"><a href="#">Foundation</a></li>
+              <li class="menu-text">
+                <a href="#">Foundation CSS Introduction</a>
+              </li>
+              <li class="menu-text">
+                <a href="#"> Foundation Setup </a>
+                <ul class="menu vertical nested">
+                  <li><a href="#"> Foundation CSS Global Styles</a></li>
+                  <li><a href="#">Foundation CSS Global Style Colors</a></li>
+                  <li><a href="#">Foundation CSS Flexbox Mode</a></li>
+                  <li>
+                    <a href="#"
+                      >Foundation CSS JavaScript Installation &
+                      Initialization</a
+                    >
+                  </li>
+                  <li><a href="#">Foundation CSS Default Media Queries</a></li>
+                  <li>
+                    <a href="#">Foundation CSS Setup Complete Reference</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="menu-text">
+                <a href="#">Foundation Containers</a>
+                <ul class="menu vertical nested">
+                  <li><a href="#">Foundation CSS Accordion</a></li>
+                  <li><a href="#">Foundation CSS Callout</a></li>
+                  <li><a href="#">Foundation CSS Card</a></li>
+                  <li><a href="#">Foundation CSS Dropdown</a></li>
+                  <li><a href="#"> Foundation CSS Media Object</a></li>
+                  <li><a href="#">Foundation CSS Reveal </a></li>
+                  <li><a href="#">Foundation CSS Tables </a></li>
+                  <li><a href="#"> Foundation CSS Tabs</a></li>
+                  <li>
+                    <a href="#"> </a>Foundation CSS Responsive Accordion Tabs
+                  </li>
+                  <li>
+                    <a href="#">Foundation CSS Containers Complete Reference</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="menu-text">
+                <a href="#">Foundation Navigation</a>
+                <ul class="menu vertical nested">
+                  <li><a href="#">Foundation CSS Menu</a></li>
+                  <li><a href="#"> Foundation CSS Dropdown Menu</a></li>
+                  <li><a href="#"> Foundation CSS Drilldown Menu</a></li>
+                  <li><a href="#">Foundation CSS Accordion Menu</a></li>
+                  <li><a href="#">Foundation CSS Top Bar</a></li>
+                  <li><a href="#">Foundation CSS Responsive Navigation</a></li>
+                  <li><a href="#">Foundation CSS Magellan</a></li>
+                  <li><a href="#">Foundation CSS Pagination</a></li>
+                  <li><a href="#">Foundation CSS Breadcrumbs</a></li>
+                  <li>
+                    <a href="">Foundation CSS Navigation Complete Reference</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="menu-text">
+                <a href="#">Foundation Typography</a>
+                <ul class="menu vertical nested">
+                  <li><a href="#">Foundation CSS Base Typography</a></li>
+                  <li><a href="#">Foundation CSS Typography Helpers</a></li>
+                  <li>
+                    <a href="#">Foundation CSS Typography Complete Reference</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-text">
+                <a href="#">Foundation CSS General Complete Reference</a>
+              </li>
+              <li class="menu-text">
+                <a href="#">Foundation CSS Kitchen Sink Complete Reference</a>
+              </li>
+
+              <li class="menu-text">
+                <a href="#">Foundation Controls</a>
+                <ul class="menu vertical nested">
+                  <li><a href="#">Foundation CSS Button Group</a></li>
+                  <li><a href="#">Foundation CSS Close Button</a></li>
+                  <li><a href="#">Foundation CSS Slider</a></li>
+                  <li><a href="#">Foundation CSS Switch</a></li>
+                  <li>
+                    <a href="#">Foundation CSS Controls Complete Reference</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="menu-text">
+                <a href="#">Foundation Media</a>
+                <ul class="menu vertical nested">
+                  <li><a href="#">Foundation CSS Badge</a></li>
+                  <li><a href="#">Foundation CSS Responsive Embed</a></li>
+                  <li><a href="#">Foundation CSS Label</a></li>
+                  <li><a href="#">Foundation CSS Orbit</a></li>
+                  <li><a href="#">Foundation CSS Progress Bar</a></li>
+                  <li><a href="#">Foundation CSS Thumbnail</a></li>
+                  <li><a href="#">Foundation CSS Tooltip</a></li>
+                  <li>
+                    <a href="#">Foundation CSS Media Complete Reference</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="menu-text">
+                <a href="#">Foundation Plugins</a>
+                <ul class="menu vertical nested">
+                  <li><a href="#">Foundation CSS Equalizer</a></li>
+                  <li><a href="#">Foundation CSS Interchange</a></li>
+                  <li><a href="#">Foundation CSS Toggler</a></li>
+                  <li><a href="#">Foundation CSS Smooth Scroll</a></li>
+                  <li><a href="#">Foundation CSS Sticky</a></li>
+                  <li>
+                    <a href="#">Foundation CSS Plugins Complete Reference</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <!-- Main Column -->
+          <div class="cell medium-8 medium-cell-block-y">
+            <!-- Horizontal Tabs -->
+            <ul class="tabs" data-tabs id="tabs_example">
+              <li class="tabs-title is-active">
+                <a href="#content1">Read</a>
+              </li>
+              <li class="tabs-title">
+                <a href="#content2">Discuss</a>
+              </li>
+              <li class="tabs-title">
+                <a href="#content3">Courses</a>
+              </li>
+            </ul>
+
+            <div class="tabs-content" data-tabs-content="tabs_example">
+              <div class="tabs-panel is-active" id="content1">
+                <h1>Foundation CSS Introduction</h1>
+                <p>
+                  Foundation is an open-source and responsive front-end
+                  framework created by ZURB in September 2011 that makes it
+                  simple to create stunning responsive websites, apps, and
+                  emails that operate on any device. Many companies, like
+                  Facebook, eBay, Mozilla, Adobe, and even Disney, use it. The
+                  framework is based on bootstrap, which is similar to SaaS.
+                  It’s more complex, versatile, and configurable. It also comes
+                  with a command-line interface, making it simple to use with
+                  module bundlers. Email framework provides you with responsive
+                  HTML emails, which can be read on any device. Foundation for
+                  Apps allows you to build fully responsive web applications.
+                </p>
+                <h5>Features</h5>
+                <ul>
+                  <li>
+                    Includes XY grids: The default grid system in Foundation
+                    allows the developer to control the layouts based on both
+                    horizontal and vertical positions.
+                  </li>
+                  <li>
+                    Smooth scrolling note: This feature contains built-in
+                    JavaScript code, in order to add the “smooth scroll”
+                    property to a specific or any link present inside the
+                    webpage.
+                  </li>
+                  <li>
+                    Easier prototyping: It facilitates built-in functionality
+                    that helps to speed up the prototyping process.
+                  </li>
+                </ul>
+
+                <p>
+                  Installing Foundation: We can use Foundation using any one of
+                  the following methods:
+                </p>
+                <ol>
+                  <li>
+                    Method 1: Go to the official documentation of the Foundation
+                    https://get.foundation/ and click on the Download All button
+                    to use the foundation offline.
+                  </li>
+                  <li>
+                    Method 2: Use the following CDN Links inside the head tag.
+                  </li>
+                </ol>
+                <h5>Advantages</h5>
+                <ul>
+                  <li>It is open source and has good community support.</li>
+                  <li>
+                    It is easy to use but you must have a basic understanding of
+                    HTML and CSS.
+                  </li>
+                  <li>
+                    It offers various templates that you can use to make your
+                    website with much lesser effort.
+                  </li>
+                </ul>
+                <h1>Foundation CSS Global Styles</h1>
+                <p>
+                  Foundation CSS is an open-source & responsive front-end
+                  framework built by the ZURB foundation in September 2011,
+                  which makes it really easy to design beautiful responsive
+                  websites, apps, and emails that look amazing & can be
+                  accessible to any device. The framework is built on Saas-like
+                  bootstrap. It is more sophisticated, flexible, and easily
+                  customizable. It also comes with CLI, so it’s easy to use it
+                  with module bundlers. It offers the Fastclick.js tool for
+                  faster rendering on mobile devices. It is used by many
+                  companies such as Facebook, eBay, Mozilla, Adobe, and even
+                  Disney. The framework is built on Saas-like bootstrap. It is
+                  more sophisticated, flexible, and easily customizable. It also
+                  comes with CLI, so it’s easy to use it with module bundlers.
+                  It offers the Fastclick.js tool for faster rendering on mobile
+                  devices.
+                </p>
+                <p>
+                  The Global Styles of Foundation framework comprises useful
+                  resets to make sure styling is consistent across all browsers.
+                  In addition to that, the SASS version of Foundation allows you
+                  to adjust the default settings as per your requirement.
+                </p>
+                <ul>
+                  <li>
+                    Font Sizing: The default font size is set to 100% of the
+                    browser style sheet, with the default font size as 16
+                    pixels. However, you can edit the $global-font-size variable
+                    to alter the base font size in the SASS version of
+                    Foundation CSS.
+                  </li>
+                  <li>
+                    Global Style Colors: The default color palette made
+                    available for use by Foundation CSS. These Global Style
+                    Colors can be easily used to give interactive colors to
+                    Foundation CSS components such as links, callouts, or
+                    buttons.
+                  </li>
+                </ul>
+                <h5>Foundation CSS Global Style Colors Classes</h5>
+                <ul>
+                  <li>
+                    primary: This class highlights with a sky blue color, which
+                    marks as important.
+                  </li>
+                  <li>
+                    secondary: This class is highlighted with a grey color which
+                    marks as of less importance.
+                  </li>
+                  <li>
+                    success: This class highlights with a green color
+                    representing the completion of some action.
+                  </li>
+                  <li>
+                    alert: This class highlights with a red color representing
+                    incomplete action with danger.
+                  </li>
+                  <li>
+                    warning: This class highlights with a yellow color represent
+                    some warning action.
+                  </li>
+                </ul>
+              </div>
+
+              <div class="tabs-panel" id="content2">
+                <img
+                  src="http://www.geeksforgeeks.org/wp-content/uploads/gfg_200X200-1.png"
+                />
+              </div>
+
+              <div class="tabs-panel" id="content3">
+                <p>This is tab 3</p>
+
+                <img
+                  src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div
+        class="cell shrink footer"
+        style="
+          background-color: rgba(69, 67, 80, 0.993);
+          color: white;
+          text-align: center;
+        "
+      >
+        <p>
+          We use cookies to ensure you have the best browsing experience on our
+          website. By using our site, you acknowledge that you have read and
+          understood our <a href="#">Cookie Policy</a> &
+          <a href="#">Privacy Policy</a>
+        </p>
+      </div>
+    </div>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
